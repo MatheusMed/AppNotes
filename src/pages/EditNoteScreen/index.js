@@ -1,9 +1,9 @@
 import React,{useState,useEffect,useLayoutEffect} from 'react';
 import {useSelector,useDispatch} from 'react-redux';
+import {StatusBar} from 'react-native';
 import {useRoute,useNavigation} from '@react-navigation/native';
 
 import BtnIcon from 'react-native-vector-icons/Ionicons';
-import CloseIcon from 'react-native-vector-icons/EvilIcons';
 
 import { 
 Container,
@@ -38,14 +38,9 @@ export default () => {
     useLayoutEffect(()=>{
         navigation.setOptions({
             title: status == 'new' ? 'Nova Anotação' : 'Editar Anotação',
-            headerLeft:() => (
-                <DeletButton underlayColor='transparent' onPress={handleDeletBtn} >
-                    <BtnIcon name='ios-close-circle-outline' size={33} color='#f44336' />
-                </DeletButton>
-            ),
             headerRight:()=>(
                 <SaveButton underlayColor='transparent' onPress={handleSaveBtn} >
-                    <BtnIcon name='ios-save' size={27} color='#6fbf73' />
+                    <BtnIcon name='ios-save' size={27} color='#ccc' />
                 </SaveButton>
             )
         });
@@ -74,9 +69,10 @@ export default () => {
         }
     }
 
-    const handleDeletBtn = () => {
+    /*const handleDeletBtn = () => {
         navigation.goBack();
     }
+    */
 
     const DeletEdit = () => {
         dispatch({
@@ -90,6 +86,7 @@ export default () => {
 
     return(
         <Container>
+            <StatusBar barStyle='light-content' backgroundColor='#333' />
             <TileInput 
                 value={title}
                 onChangeText={t=>setTitle(t)}
