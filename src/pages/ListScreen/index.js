@@ -1,5 +1,6 @@
 import React , {useLayoutEffect} from 'react';
 import {useNavigation} from '@react-navigation/native';
+import {StatusBar} from 'react-native';
 import {useSelector} from 'react-redux';
 import AntIcon from 'react-native-vector-icons/AntDesign';
 import NoIcon from 'react-native-vector-icons/MaterialIcons';
@@ -38,6 +39,7 @@ export default () => {
 
     return(
         <Container>
+            <StatusBar barStyle='light-content' backgroundColor='#333' />
             {list.length > 0 && 
          <NotesList 
             data={list}
