@@ -9,8 +9,13 @@
 
 # ScreenShots 
 
+### Tela sem nenhuma Anotação
+
 ![NoNotes](https://user-images.githubusercontent.com/42242067/88469949-1ee28280-cecd-11ea-818b-c4555664c55b.jpg)
 
+### Tela de Notas
+
+![Notes](https://user-images.githubusercontent.com/42242067/88469968-50f3e480-cecd-11ea-8ce4-3ed351138ecb.jpg)
 
 
 
