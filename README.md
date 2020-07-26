@@ -20,11 +20,6 @@
 ![Notes](https://user-images.githubusercontent.com/42242067/88469968-50f3e480-cecd-11ea-8ce4-3ed351138ecb.jpg)
 
 
-### Tela de Deletar Notas
-
-
-![NoteDelete](https://user-images.githubusercontent.com/42242067/88470044-13dc2200-cece-11ea-86f2-dd2f902b9f64.jpg)
-
 
 
 # :rocket::rocket::rocket::rocket::rocket::rocket:
