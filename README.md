@@ -17,7 +17,3 @@
 
 ![Notes](https://user-images.githubusercontent.com/42242067/88469968-50f3e480-cecd-11ea-8ce4-3ed351138ecb.jpg)
 
-
-
-
-# :rocket:
