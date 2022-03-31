@@ -5,8 +5,6 @@
 ### libs Usadas: Styled-Components, Redux, React-Redux, Redux-Persist, AsyncStorage, Vector-Icons!
 
 
-# :rocket::rocket::rocket::rocket::rocket::rocket:
-
 # ScreenShots 
 
 ### Tela sem nenhuma Anotação
@@ -22,4 +20,4 @@
 
 
 
-# :rocket::rocket::rocket::rocket::rocket::rocket:
+# :rocket:
