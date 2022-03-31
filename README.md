@@ -1,6 +1,6 @@
 # :rocket: AppNotes
 
-## Aplicativo desenvolvido em React Native, com um visual bem otimizado bastante leve, enfim um aplicativo de Notas , básico mais eficiente!
+## Aplicativo desenvolvido em React Native, com um visual bem otimizado bastante leve, enfim um aplicativo de Notas , básico mas eficiente!
 
 ### libs Usadas: Styled-Components, Redux, React-Redux, Redux-Persist, AsyncStorage, Vector-Icons!
 
